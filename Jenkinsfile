@@ -1,9 +1,6 @@
-pipeline {
-    stages {
-        stage('Build') { 
-            steps {
-                echo "test"
-            }
-        }
+node {
+    stage('Prep'){
+        echo('test')
     }
+
 }
